@@ -4,10 +4,24 @@
  */
 package CA_2;
 
-/**
- *
- * @author DELL
- */
+
+import java.util.ArrayList;
+
 public class Department {
-    
+    String deptName;
+    ArrayList<Employee> people;
+
+    public Department(String name) {
+        this.deptName = name;
+        people = new ArrayList<>();
+    }
+
+    public void addPerson(Employee e) { people.add(e); }
+    public String getDeptName() { return deptName; }
+    public int count() { return people.size(); }
+    public ArrayList<Employee> getPeople() { return people; }
+
+    public String toString() {
+        return deptName + " - " + people.size() + " people";
+    }
 }
