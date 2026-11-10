@@ -25,7 +25,5 @@ public class Department {
         return deptName + " - " + people.size() + " people";
     }
 }
-jhuhijj
- 
 
 
