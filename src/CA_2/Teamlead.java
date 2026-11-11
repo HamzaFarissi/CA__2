@@ -8,6 +8,13 @@ package CA_2;
  *
  * @author DELL
  */
-public class Teamlead {
-    
+public class TeamLead extends Manager {
+    String teamName;
+
+    public TeamLead(String fn, String ln, String dept, String title, String comp) {
+        super(fn, ln, dept, title, comp);
+        this.teamName = "";
+    }
+
+    public String getTeamName() { return teamName; }
 }

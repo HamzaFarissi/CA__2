@@ -8,8 +8,8 @@ package CA_2;
  *
  * @author DELL
  */
-public class Seniormanager extends Manager {
-    public Seniormanager(String fn, String ln, String dept, String title, String comp) {
+public class SeniorManager extends Manager {
+    public SeniorManager(String fn, String ln, String dept, String title, String comp) {
         super(fn, ln, dept, title, comp);
     }
 }
